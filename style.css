@@ -65,7 +65,7 @@ main  {
     primer parámetro width. 
     segundo parámetro style. 
     tercer parámetro color*/
-    border: 2px solid #000000;
+    border: 2px solid #ff34b7;
     border-radius: 20px;
     background-color: rgb(5,164,238);
 }
@@ -104,6 +104,11 @@ main  {
 footer {
     background-color: #9a3265;
     text-align: center;
-    color:#ffffff;
     padding: 20px;
+}
+
+.copyright {
+    color:#ffffff;
+    font-size: 10px;
+    margin: 10px;
 }
