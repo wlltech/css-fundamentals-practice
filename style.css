@@ -1,0 +1,78 @@
+/*
+Estilos predeterminados
+- "*" es un selector universal que selecciona todos los elementos en la página web.
+- "box-sizing: border-box;" el tamaño total de un elemento incluirá tanto el contenido como el relleno y el borde.
+- padding: 0%; establece el relleno de todos los elementos en un 0 porcentaje.
+- margin: 0%; establece el margen de todos los elementos en un 0 porcentaje. 
+*/
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+header {
+    background-color: #b5cce2;
+    padding: 20px 0;
+}
+
+.encabezado {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top:110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+main  {
+    background-color: rgb(5,164,238);
+}
+
+.links {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.links li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+}
+
+.links h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.links img {
+    margin-top: 30px;
+}
+
+.product-description {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.link-recurso {
+    font-size: 20px;
+}
