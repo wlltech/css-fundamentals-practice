@@ -10,6 +10,7 @@ Estilos predeterminados
     padding: 0%;
     margin: 0%;
 }
+
 header {
     background: url(images/bg.jpg);
     padding: 20px 0;
@@ -46,59 +47,6 @@ nav a:hover {
 
 main  {
     background-color: rgb(112, 183, 216);
-}
-
-.links {
-    width: 940px;
-    margin: 0 auto;
-    padding: 50px;
-}
-
-.links li {
-    display: inline-block;
-    text-align: center;
-    width: 30%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
-    /*border: 
-    primer parámetro width. 
-    segundo parámetro style. 
-    tercer parámetro color*/
-    border: 2px solid #ff34b7;
-    border-radius: 20px;
-    background-color: rgb(5,164,238);
-}
-
-.links li:hover {
-    border-color: #f12653 ;
-}
-
-.links li:active {
-    border-color: #ced9ac;
-}
-
-.links h2 {
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.links h2:hover {
-    font-size: 35px;
-}
-
-.links img {
-    margin-top: 30px;
-}
-
-.product-description {
-    font-size: 18px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.link-recurso {
-    font-size: 20px;
 }
 
 footer {
