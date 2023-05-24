@@ -37,12 +37,14 @@ form label, form legend{
     color: white;
     background: #ff6362;
     border: none;
+    border-radius: 5px;
     /*Transición */
-    transition: 1s background;
+    transition: 1s all;
     /*Cursor */
     cursor: pointer;
 }
 
 .enviar:hover{
     background: #ff2a66;
+    transform: scale(1.2);
 }
