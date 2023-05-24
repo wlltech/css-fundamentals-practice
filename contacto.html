@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./reset.css">
-        <link rel="stylesheet" href="./style.css">
-        <link rel="stylesheet" href="./style-form.css">
-        <title>Document</title>
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style-form.css">
+    <title>Document</title>
+</head>
+
 <body>
     <header>
         <div class="encabezado">
@@ -26,19 +28,27 @@
     </header>
     <main>
         <section class="formulario-contacto">
+            <h2>Te gustaría ver otra herramienta? escríbenos:</h2>
             <form>
-                <label for="link-input">LINK Sitio WEB</label>
+                <label class="espacio" for="link-input">LINK Sitio WEB</label>
                 <input class="label-standard" type="url" id="link-input">
                 <label for="description-input">Breve descripción</label>
                 <textarea class="label-standard" cols="10" rows="10" id="description-input"></textarea>
-                <label for="correo">Correo</label>
-                <input class="label-standard" type="email" id="correo">
                 <div>
-                    <p>Elija el tema de su contribución:</p>
-                    <label><input type="radio" name="tipo">HTML</label>
-                    <label><input type="radio" name="tipo">CSS</label>
-                    <label><input type="radio" name="tipo">JAVASCRIPT</label>
+                    <p class="espacio">Le gustaría que le contactemos para confirmar que todo está listo?</p>
+                    <label><input type="radio" name="confirmar">Sí</label>
+                    <label><input type="radio" name="confirmar">No</label>
                 </div>
+                <div>
+                    <p class="espacio">Elija el tema de su contribución</p>
+                    <select>
+                        <option>HTML</option>
+                        <option>CSS</option>
+                        <option>JAVASCRIPT</option>
+                    </select>
+                </div>
+                    <label class="espacio" for="correo">Correo</label>
+                    <input class="label-standard" type="email" id="correo">
                 <input class="label-standard" type="submit" value="Solicitar">
             </form>
         </section>
@@ -48,4 +58,5 @@
         <p class="copyright">&copy; Copyright - 2023</p>
     </footer>
 </body>
+
 </html>

@@ -1,3 +1,7 @@
+h2 {
+    font-size: 30px;
+}
+
 .formulario-contacto{
     width: 940px;
     margin: 0px auto;
@@ -5,7 +9,7 @@
 }
 
 form label, form p{
-    display: inline-block;
+    display: block;
     font-size: 20px;
     margin: 0 0 10px;
 }
@@ -15,4 +19,8 @@ form label, form p{
     padding: 10px 25px;
     margin: 0 0 20px;
     width: 50%;
+}
+
+.espacio{
+    margin: 35px 0px 15px 0px;
 }
