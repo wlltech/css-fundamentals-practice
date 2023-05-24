@@ -14,7 +14,7 @@
 <body>
     <header>
         <div class="encabezado">
-            <img src="./images/logo.png" />
+            <img src="./images/logo.png" alt="Logo DEV Courses Notes"/>
             <nav>
                 <ul>
                     <li><a href="./index.html">HOME</a></li>
@@ -31,24 +31,24 @@
             <h2>Te gustaría ver otra herramienta? escríbenos:</h2>
             <form>
                 <label class="espacio" for="link-input">LINK Sitio WEB</label>
-                <input class="label-standard" type="url" id="link-input">
-                <label for="description-input">Breve descripción</label>
-                <textarea class="label-standard" cols="10" rows="10" id="description-input"></textarea>
-                <div>
-                    <p class="espacio">Le gustaría que le contactemos para confirmar que todo está listo?</p>
+                <input class="label-standard" type="url" id="link-input" placeholder="http://www.ejemplo.com" required>
+                <label for="description-input">Descripción</label>
+                <textarea class="label-standard" cols="10" rows="10" id="description-input" placeholder="Escriba una breve descripción"></textarea>
+                <fieldset>
+                    <legend class="espacio">Le gustaría que le contactemos para confirmar que todo está listo?</legend>
                     <label><input type="radio" name="confirmar">Sí</label>
                     <label><input type="radio" name="confirmar">No</label>
-                </div>
-                <div>
-                    <p class="espacio">Elija el tema de su contribución</p>
-                    <select>
+                </fieldset>
+                <fieldset>
+                    <legend class="espacio">Elija el tema de su contribución</legend>
+                    <select class="seleccion">
                         <option>HTML</option>
                         <option>CSS</option>
                         <option>JAVASCRIPT</option>
                     </select>
-                </div>
+                </fieldset>
                     <label class="espacio" for="correo">Correo</label>
-                    <input class="label-standard" type="email" id="correo">
+                    <input class="label-standard" type="email" id="correo" placeholder="ejemplo@correo.com">
                 <input class="label-standard" type="submit" value="Solicitar">
             </form>
         </section>
