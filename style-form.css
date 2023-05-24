@@ -28,3 +28,21 @@ form label, form legend{
 .seleccion {
     padding: 5px;
 }
+
+.enviar{
+    width: 40%;
+    padding: 15px 0px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #ff6362;
+    border: none;
+    /*Transición */
+    transition: 1s background;
+    /*Cursor */
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: #ff2a66;
+}
