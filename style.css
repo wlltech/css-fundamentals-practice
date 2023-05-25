@@ -26,6 +26,12 @@ header {
     margin: 0 auto;
 }
 
+/*Pseudo-classes*/
+.menu:first-child{
+    background: #c04396;
+    padding: 5px;
+}
+
 main{
     position: relative;
     width: 940px;
@@ -70,6 +76,15 @@ nav a:hover {
     clear: left;
 }
 
+.titulos-banners{
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0 0 1em;
+}
+
+p{
+    line-height: 1.5;
+}
 
 .mapa{
     padding: 3em 0;
@@ -81,8 +96,9 @@ nav a:hover {
 }
 
 .secciones p{
-    width: 640px;
+    width: 500px;
     margin: 0 auto;
+    display: inline-block;
 }
 
 .texto-destacado{
