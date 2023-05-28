@@ -86,6 +86,12 @@ main > p{
     text-align: center;
 }
 
+/* Opacidad en los elementos con el color rgba*/
+.titulo-primer-bloque:hover{
+    color: rgba(154,50,101,0.7);
+    transition: 500ms;
+}
+
 /* pseudo elementos */
 .titulo-primer-bloque:first-letter{
     font-size: 50px;
@@ -98,10 +104,17 @@ main > p{
 }
 
 /* Ejemplo cálculos con CSS*/
+
 .imagenes-banners{
     width: calc( (100% / 3) - 100px );
     float:left;
     margin: 0px 30px 20px 30px;
+}
+
+/* Opacidad en los elementos*/
+.imagenes-banners:hover{
+    opacity: 50%;
+    transition: 500ms;
 }
 
 .textos-destacado{
