@@ -84,6 +84,8 @@ main > p{
     font-size: 2em;
     margin: 0 0 1em;
     text-align: center;
+    /* sombra en los elementos */
+    text-shadow: 1px 1px 3px #c200b1;
 }
 
 /* Opacidad en los elementos con el color rgba*/
@@ -104,11 +106,13 @@ main > p{
 }
 
 /* Ejemplo cálculos con CSS*/
-
 .imagenes-banners{
     width: calc( (100% / 3) - 100px );
     float:left;
     margin: 0px 30px 20px 30px;
+    /* sombra en los elementos */
+    /* Sombra externa*/
+    box-shadow: 5px 5px 30px 2px #f1c76b, -1px -1px #000000;
 }
 
 /* Opacidad en los elementos*/
