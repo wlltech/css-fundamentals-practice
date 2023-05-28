@@ -143,11 +143,12 @@ p::first-line{
     font-style: italic;
 }
 
-/* pseudo elementos */
-p::before{
+/* pseudo elementos - omitiendo una clase */
+p:not(.copyright)::before{
     content: "✫ ";
 }
 
+/* pseudo elementos */
 p::after{
     content: " *";
 }
@@ -188,7 +189,22 @@ footer {
 
 /* Pantalla hasta 480px*/
 @media screen and (max-width:480px){
-    body{
-        background-color: #9a3265;
+
+.centrar-imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    position: static;
+}
+.imagenes-banners{
+    width: 300px;
+}
+
+.encabezado, .contenido-primer-bloque,  .contenido-segundo-bloque, .contenido-tercer-bloque, .contenido-primer-bloque p   {
+        width: auto;
+        padding: 20px;
     }
 }
