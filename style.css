@@ -99,7 +99,7 @@ main > p{
 
 /* Ejemplo cálculos con CSS*/
 .imagenes-banners{
-    width: calc(40% - (200px));
+    width: calc( (100% / 3) - 100px );
     float:left;
     margin: 0px 30px 20px 30px;
 }
