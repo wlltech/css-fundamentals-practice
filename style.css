@@ -97,8 +97,9 @@ main > p{
     margin: 0 0 1em;
 }
 
+/* Ejemplo cálculos con CSS*/
 .imagenes-banners{
-    width: 220px;
+    width: calc(40% - (200px));
     float:left;
     margin: 0px 30px 20px 30px;
 }
